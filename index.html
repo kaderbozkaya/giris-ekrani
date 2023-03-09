@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Genos:wght@300&family=Roboto+Condensed:wght@300&family=Tilt+Neon&display=swap" rel="stylesheet">
+
+    <title>Giriş Ekranı</title>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="formkismi">
+            <h1 id="baslik">Giriş Yap</h1>
+
+            <form>
+                <div class="inputkismi" id="isimkismi">
+                    <i class="fa-regular fa-circle-user"></i>
+                    <input type="text" placeholder="İsim">
+                </div>
+                <div class="inputkismi">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="text" placeholder="Email">
+                </div>
+                <div class="inputkismi">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="text" placeholder="Şifre">
+                </div>
+                <a href="#">Şifremi Unuttum.</a>
+                <div class="buttonkismi">
+                    <button type="submit" id="girisbtn">Giriş Yap</button>
+                    <button type="submit" id="kayitbtn" class="disable">Kayıt Ol</button>
+                
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
